@@ -65,8 +65,7 @@ const HomePage = () => {
         <div className='bg-white p-8 rounded-lg shadow-md'>
           <h2 className='text-2xl font-bold text-gray-800 mb-4'>Welcome to the Homepage! {UserName}</h2>
           <p className='text-gray-600 mb-6'>
-            This is a simple homepage with a logout button. 
-           
+            This is a simple homepage with a logout button.
           </p>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
             {/* Placeholder Cards */}
@@ -80,7 +79,7 @@ const HomePage = () => {
             </div>
             <div className='bg-yellow-50 p-6 rounded-lg shadow-sm'>
               <h3 className='text-lg font-semibold text-yellow-800'>Card 3</h3>
-              <p className='text-gray-600'>Some Random Info</p>
+              <p className='text-gray-600'>Some Random Info.</p>
             </div>
           </div>
         </div>
